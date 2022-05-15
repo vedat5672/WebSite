@@ -1,0 +1,104 @@
+.title{
+    margin:20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+    font-size: 24px;
+    font-weight: bold;
+}
+.carousel-inner
+{
+    margin-left: 100px;
+    background-color: black;
+}
+.card-text{
+    margin-left: 10px;
+    padding-left: 2px;
+}
+ .col-sm-10
+ {
+     margin-left: 100px;
+     margin-top: 20px;
+     box-sizing: border-box;
+     padding-left: 10px;
+ }
+ .col-sm-10 h1{
+     position: absolute;
+     margin: 10px;
+     color: wheat;
+ }
+ .col-sm-10 p{
+     border-bottom: 1px solid black;
+     
+ }
+
+
+
+@media (max-width: 1090px) {
+    
+    .col-sm-10 p{
+        float: left;
+        margin-top: 10px;
+        padding-right: 70px;
+        padding-left: 100px;
+    }
+    .col-sm-10 img{
+        width: 700px;
+        margin-top: 10px;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .col-sm-10 a{
+        float: left;
+    }
+
+
+    .col-sm-10 h1{
+        position: absolute;
+        padding-top:50px;
+      
+        font-weight: bold;
+        padding-left: 200px;
+      
+    }
+
+   
+   }
+   @media (max-width: 800px) {
+   
+    
+    .col-sm-10 h1{
+        position: absolute;
+        padding-top:50px;
+        
+        font-weight: bold;
+        padding-left: 200px;
+      
+    }
+    .col-sm-10 p{
+       float: left;
+       margin-top:10px;
+       margin-left: 10px;
+      
+    }
+    .col-sm-10 a{
+        float: left;
+       
+     }
+     .col-sm-10 img{
+         width:490px;
+         height: auto;
+         
+         margin-left: 70px;
+         padding: 0px;
+       
+     }
+   a{
+    width: 550px;
+   }
+
+   
+   }
+   
+   

@@ -1,0 +1,41 @@
+
+h1{
+ position: absolute;
+  margin-left: 1200px;
+  top: 150px;
+  color: crimson;
+  background-color: black;
+}
+@media only screen and (max-width: 1215px) {
+    body {
+      background-color: lightblue;
+    }
+    div h1 {
+     
+      position:absolute;
+      margin-left: 220px;
+      top: 1150px;
+      background-color: black;
+    
+    
+      
+    
+      font-weight: bold;
+      color: crimson;
+ 
+      
+      
+      
+    }
+    .col-5> img{
+        margin-top: 40px;
+        float: left;
+        margin-right: 50px;
+        width: 200%;
+
+    }
+    .col-5 iframe{
+        margin-left: 200px;
+    }
+  }
+ 
